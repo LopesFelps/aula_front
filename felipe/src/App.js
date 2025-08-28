@@ -40,3 +40,35 @@ export default App;
 //  );
 // }
 // export default App;
+
+
+// import React from "react";
+// import ProfileCard from "./ProfileCard";
+
+// function App() {
+//   const profiles = [
+//     { name: "Jurandir", role: "Professor", image: "https://randomuser.me/api/portraits/men/1.jpg" },
+//     { name: "Dejair", role: "Engenheiro", image: "https://randomuser.me/api/portraits/men/2.jpg" },
+//     { name: "Lucrecio", role: "Designer", image: "https://avatars.dicebear.com/api/adventurer/lucrecio.svg" },
+//     { name: "Nicanor", role: "Ator", image: "https://avatars.dicebear.com/api/avataaars/nicanor.svg" },
+//     { name: "Florisbela", role: "Bombeiro", image: "https://avatars.dicebear.com/api/adventurer/floresbela.svg" },
+//     { name: "Jujuzete", role: "Cuteleiro", image: "https://randomuser.me/api/portraits/women/3.jpg" },
+//     { name: "Juca", role: "Ourives", image: "https://randomuser.me/api/portraits/men/4.jpg" },
+//     { name: "Predino", role: "Pedreiro", image: "https://randomuser.me/api/portraits/men/5.jpg" },
+//   ];
+
+//   return (
+//     <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
+//       {profiles.map((profile, index) => (
+//         <ProfileCard
+//           key={index}
+//           name={profile.name}
+//           role={profile.role}
+//           image={profile.image}
+//         />
+//       ))}
+//     </div>
+//   );
+// }
+
+// export default App;
